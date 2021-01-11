@@ -70,6 +70,10 @@ RUN cd /root && \
         nasm \
         xserver-xorg-dev \
         fuse \
+        git \
+        mplayer \
+        screen \
+        pavucontrol \
         build-essential \
         pkg-config \
         libpulse-dev m4 intltool dpkg-dev \
