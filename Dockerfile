@@ -48,7 +48,7 @@ RUN cd /root && \
         wmctrl \
         epiphany-browser && \
     ln -fs /usr/share/zoneinfo/UTC /etc/localtime && dpkg-reconfigure -f noninteractive tzdata && \
-    apt-get install git pulseaudio mplayer screen pavucontrol
+    apt-get -y install git pulseaudio mplayer screen pavucontrol
     apt-get -y install \
         git \
         libxfont-dev \
